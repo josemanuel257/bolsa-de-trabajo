@@ -1,5 +1,5 @@
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ header {
     text-align: center;
 }
 
-header h1 {
+header h2 {
     font-weight: 400;
     font-size: 2rem;
 }
@@ -30,12 +30,61 @@ main {
     flex-wrap: wrap;
     padding: 30px;
     gap: 30px;
+
 }
 
 footer {
-    background-color: #e8f4ff;
-    padding: 15px 10px;
+    background: #e8f4ff;
+    padding: 15px 30px;
     text-align: center;
     color: #7f8c8d;
+}
+
+.vancancies-section {
+    flex: 400px;
+}
+
+.vancancies-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0,1);
+}
+
+.vacancies-card h3 {
+    margin-bottom: 8px;
+    color: #2c3e50;
+}
+
+.vacancies-card .company {
     font-size: 0.9rem;
+    color : #7f8c8d;
+    margin-bottom: 10px;
+}
+
+.vacancies-card .description {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.btn-apply {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+    width: 100%;
+}
+
+.btn-apply:hover {
+    background: #2980b9;
+
 }

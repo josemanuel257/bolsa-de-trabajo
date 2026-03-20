@@ -1,0 +1,35 @@
+body{
+    background-color: #7dbadd;;
+font-family: Arial, Helvetica, sans-serif;
+margin: 40px
+
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+select{
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.error{
+    color: red;
+    font-size: 14px;
+}
+
+.success{
+    color: green;
+    font-weight: bold;
+}

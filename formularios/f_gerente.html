@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="../CSS/sty.f_gerente.CSS">
+</head>
+<body>
+    <h1>Formulario a aplicar</h1>
+    <p>Por favor, llena todos los campos de abajo para enviar tu solicitud </p>
+    <form action="" method="post" id="formulario" >
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" placeholder="Ingresa tu nombre completo">
+        <span id="errorName" class="error"></span> 
+
+     <label for="age">Edad</label>
+    <input type="number"  id="age" name="age" min="18" max="45" placeholder="Introduce tu edad">
+    <span id="errorAge" class="error"></span>
+
+<label for="email">Correo electrónico</label>
+    <input type="email" id="email" name="email" pattern="/[a-z0-9]+[._-]+@[a-z0-9]+\.[a-z0-9]+/gm">
+    <span id="errorEmail" class="error"></span>
+
+    <label for="studies">Nivel de estudios</label>
+    <select name="studies" id="studies">
+        <option value="secundariatrunca">Secundaria trunca</option>
+        <option value="secundariaterminada">Secundaria terminada</option>
+        <option value="bachilleratotrunco">Bachillerato trunco </option>
+        <option value="bachilleratoterminado">bachillerato terminado</option>
+        <option value="licenciatura">Licenciatura</option> 
+        <option value="maestria">Maestria</option>
+        <option value="doctorado">Doctorado</option>
+    </select>
+
+    <label for="phone">Teléfono</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9](10)" placeholder="Introduce tu número telefónico a 10 dígitos">
+    <span id="errorPhone" class="error"></span>
+
+    </form>
+
+
+</body>
+</html>
